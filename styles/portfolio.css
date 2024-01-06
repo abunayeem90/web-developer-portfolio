@@ -165,7 +165,7 @@ main section{
 
 /* Resume Section Styles */
 
-.resume-colum-title{
+.resume-column-title{
     color: #474747;
     font-size: 30px;
     font-weight: 700;
@@ -187,8 +187,7 @@ main section{
     margin-bottom: 20px;
     margin-top: 0px;
 }
-.resume-item-description,
-.resume-item-ins{
+.resume-item-description,.resume-item-ins{
     color:#757575;
 }
 
@@ -203,3 +202,40 @@ main section{
     margin-top: 50px;
 
 }
+
+/* footer style */
+
+footer{
+    display: flex;
+    gap: 110px;
+    background: #FFF8F3;
+    padding: 130px 100px;
+    
+}
+.footer-column{
+    width: 50%;
+}
+.social-links a{
+    margin: 25px;
+     
+}
+.section-description{
+    color:#474747;
+    font-size: 16px;
+    font-weight: 400;
+    width: 562px;
+   
+}
+.contact input[type="text"], input[type="email"],
+textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 16px;
+    border-radius: 5px;
+    background:  #FFF;
+    border: 0;
+    width: 100%;
+}
+.contact input
